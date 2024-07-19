@@ -1,5 +1,5 @@
 import React from 'react'
-import {Carousel,HomePageCard} from "./"
+import {Carousel,HomePageCard,CarouselCategory,CarouselProduct} from "./"
 
 const HomePage = () => {
   return (
@@ -57,6 +57,11 @@ const HomePage = () => {
           <div className="m-3 pt-8">
             <img className="xl:hidden" src="/images/banner_image_2.jpg" />
           </div>
+        </div>
+        <CarouselProduct/>
+        <CarouselCategory/>
+        <div className='h-[200px]'>
+        <img className='h-[100%] m-auto' src='/images/banner_image.jpg' alt='banner'/>
         </div>
       </div>
     </div>
