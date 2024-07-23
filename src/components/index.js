@@ -10,3 +10,4 @@ export { default as SearchResults } from "./SearchResults";
 export {default as Checkout} from "./Checkout";
 export { default as ProductDetails } from "./ProductDetails";
 export { default as ProductBadge } from "./ProductBadge";
+export { default as ProductRating } from "./ProductRating";
