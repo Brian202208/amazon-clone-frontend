@@ -54,7 +54,7 @@ const HomePage = () => {
             link={"Learn more"}
           />
           <div className="m-3 pt-8">
-            <img className="xl:hidden" src="/images/banner_image_2.jpg" />
+            <img className="xl:hidden" src="/images/banner_image_2.jpg" alt="banner" />
           </div>
         </div>
         <CarouselProduct/>
